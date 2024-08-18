@@ -1797,7 +1797,7 @@ function Home() {
       <section
         id="about"
         className={`bg-gray-1 ${
-          darkMode ? "bg-dark text-white" : "bg-white text-black"
+          darkMode ? "bg-black text-white" : "bg-white text-black"
         } pb-8 pt-20  lg:pb-[70px] lg:pt-[120px]`}
       >
         <div className="container">
@@ -2064,7 +2064,7 @@ function Home() {
       </section>
       <section
         class={`"${
-          darkMode ? " text-white bg-dark" : "bg-primary text-white"
+          darkMode ? " text-white bg-black" : "bg-primary text-white"
         } dark:bg-dark"`}
       >
         <div class="container px-4">
@@ -2115,7 +2115,7 @@ function Home() {
       </section>
       <section
         className={`relative z-20 overflow-hidden bg-white pb-8 pt-20 ${
-          darkMode ? "bg-dark text-primary" : "bg-white text-black"
+          darkMode ? "bg-black text-primary" : "bg-white text-black"
         } lg:pb-[50px] lg:pt-[120px]`}
       >
         <div className="container mx-auto">
@@ -3017,9 +3017,9 @@ function Home() {
             </div>
             <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
               <div
-                className={`wow fadeInUp rounded-lg bg-white px-8 py-10 shadow-testimonial ${
+                className={`wow fadeInUp rounded-lg px-8 py-10 shadow-xl ${
                   darkMode
-                    ? "bg-dark-2 text-white border border-white"
+                    ? "bg-transparent text-white border border-white"
                     : "bg-white text-black"
                 } sm:px-10 sm:py-12 md:p-[60px] lg:p-10 lg:px-10 lg:py-12 2xl:p-[60px]`}
                 data-wow-delay=".2s
@@ -3123,7 +3123,7 @@ function Home() {
                   className="mb-6 inline-block max-w-[160px]"
                 >
                   <img
-                    src="assets/images/logo/logo-white.svg"
+                    src="./src/assets/images/logo/logo11.png"
                     alt="logo"
                     className="max-w-full"
                   />
@@ -3275,47 +3275,6 @@ function Home() {
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Refund policy
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
-              <div className="mb-10 w-full">
-                <h4 className="mb-9 text-lg font-semibold text-white">
-                  Our Products
-                </h4>
-                <ul>
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    >
-                      Product 1
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    >
-                      Product 2
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    >
-                      Product 3
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    >
-                      Product 4
                     </a>
                   </li>
                 </ul>
